@@ -28,8 +28,8 @@ The project simulates a simple offensive-to-defensive workflow:
 ## Key Commands
 
 ```bash
-sudo nmap -sS -p 21,22,23,80,443 172.18.200.28
-sudo nmap -sV -p 21,22,23,80,443 172.18.200.28
+sudo nmap -sS -p 21,22,23,80,443 1x2.18.xx0.2x
+sudo nmap -sV -p 21,22,23,80,443 1x2.1x.xx0.2x
 
 sudo journalctl --since "10 minutes ago"
 sudo journalctl -k --since "5 minutes ago" | grep -i ufw
